@@ -5,8 +5,6 @@ import {
   BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer
 } from 'recharts';
 
-const API = import.meta.env.VITE_API;
-
 const App = () => {
   const [students, setStudents] = useState([]);
   const [summary, setSummary] = useState({
